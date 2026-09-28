@@ -9,7 +9,6 @@ Build and understand neural networks by implementing their core mathematics from
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-2.x-green)](https://numpy.org/)
 [![Tests](https://img.shields.io/badge/Tests-89%20Passing-success)](#testing)
-[![License](https://img.shields.io/badge/License-MIT-orange)](#license)
 
 </div>
 
@@ -17,11 +16,13 @@ Build and understand neural networks by implementing their core mathematics from
 
 ## Overview
 
-**mydl** is an educational deep learning library implemented from scratch using **NumPy**.
+**mydl** is an educational deep learning library implemented from scratch using **Python and NumPy**.
 
 The project focuses on making the mathematics and internal mechanics of neural networks explicit rather than hiding them behind high-level deep learning frameworks.
 
-The library includes:
+Instead of treating neural networks as black boxes, `mydl` aims to connect the mathematical concepts behind deep learning with their actual implementation in code.
+
+The library currently includes:
 
 - Logistic Regression
 - Two-Layer Neural Networks
@@ -35,7 +36,7 @@ The library includes:
 - Binary classification metrics
 - Training-history visualization
 
-The project was built alongside the **Deep Learning Specialization by Andrew Ng**, with an emphasis on translating mathematical concepts into working implementations.
+The project was developed alongside the **Deep Learning Specialization by Andrew Ng**, with an emphasis on translating mathematical concepts into working implementations.
 
 ---
 
@@ -70,7 +71,7 @@ The project was built alongside the **Deep Learning Specialization by Andrew Ng*
 - L2 Regularization
 - Combined L1 + L2 Regularization
 
-### Training and Evaluation
+### Training & Validation
 
 - Mini-batch training
 - Training loss history
@@ -78,6 +79,9 @@ The project was built alongside the **Deep Learning Specialization by Andrew Ng*
 - Validation loss
 - Validation accuracy
 - Configurable classification threshold
+
+### Evaluation Metrics
+
 - Accuracy
 - Precision
 - Recall
@@ -93,31 +97,7 @@ The project was built alongside the **Deep Learning Specialization by Andrew Ng*
 
 ---
 
-## Table of Contents
-
-- [Quick Start](#quick-start)
-- [Installation](#installation)
-- [Data Format](#data-format)
-- [API Usage](#api-usage)
-- [Optimizers](#optimizers)
-- [Regularization](#regularization)
-- [Dropout](#dropout)
-- [Validation](#validation)
-- [Prediction](#prediction)
-- [Evaluation Metrics](#evaluation-metrics)
-- [Visualization](#visualization)
-- [Other Models](#other-models)
-- [Project Structure](#project-structure)
-- [Example Results](#example-results)
-- [Testing](#testing)
-- [Design Philosophy](#design-philosophy)
-- [Learning Context](#learning-context)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
-# Quick Start
+## Quick Start
 
 The main deep learning model is `LLayerNN`.
 
